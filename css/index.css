@@ -1,15 +1,13 @@
 @font-face {
   font-family: "MetropolisRegular";
-  src: url("metropolis/Webfonts/WOFF2/Metropolis-Regular.woff2");
+  src: url("/metropolis/Webfonts/WOFF2/Metropolis-Regular.woff2") format("woff2");
   
   font-family: "MetropolisBlack";
-  src: url("metropolis/Webfonts/WOFF/Metropolis-Black.woff");
+  src: url("/fonts/metropolis/Metropolis-Black.woff2") format("woff2");
   
-  font-family: "WremenaRegular";
-  src: url("wremena/Wremena-Regular.woff");
+  font-family: WremenaRegular;
+  src: url(fonts/wremena/wremenaregular.woff) format("woff");
 }
-
-
 
 
 h1 {
@@ -29,7 +27,7 @@ h2 {
 p {
   text-align: center;
   color: #4c4b63;
-  font-family: "WremenaRegular", Times, serif;
+  font-family: WremenaRegular, Times, serif;
   font-size: 1.3rem;
 }
 
