@@ -1,33 +1,39 @@
 @font-face {
   font-family: "MetropolisRegular";
-  src: url("css/metropolis/Webfonts/WOFF2/Metropolis-Regular.woff2") format("woff2");
+  src: url("fonts/metropolis/metropolisregular.woff2") format("woff2");
+}
   
-  font-family: "MetropolisBlack";
-  src: url("fonts/metropolis/metropolisblack.woff2") format("woff2");
+ @font-face { font-family: "Metropolis";
+  src: url("fonts/metropolis/metropolisblack.woff") format("woff");
+}
   
-  font-family: "WremenaRegular";
+ @font-face { font-family: "WremenaRegular";
   src: url("fonts/wremena/wremenaregular.woff") format("woff");
+}
+  
+ @font-face { font-family: "Glacial Indifference";
+  src: url("fonts/glacialindifference/glacialindifferencebold.otf") format("otf");
 }
 
 
 h1 {
   text-align: center;
   color: #4c4b63;
-  font-family: MetropolisBlack, Times, sans-serif;
+  font-family: Metropolis, Arial, sans-serif;
   font-size: 3rem;
 }
 
 h2 {
   text-align: center;
   color: #4c4b63;
-  font-family: MetropolisBlack, Times, sans-serif;
+  font-family: "Glacial Indifference", Times, sans-serif;
   font-size: 2rem;
 }
 
 p {
   text-align: center;
   color: #4c4b63;
-  font-family: WremenaRegular, Times, serif;
+  font-family: WremenaRegular, Arial, serif;
   font-size: 1.3rem;
 }
 
