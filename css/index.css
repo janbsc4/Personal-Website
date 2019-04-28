@@ -19,21 +19,21 @@
 h1 {
   text-align: center;
   color: #4c4b63;
-  font-family: Metropolis, Arial, sans-serif;
+  font-family: "Metropolis", Arial, sans-serif;
   font-size: 3rem;
 }
 
 h2 {
   text-align: center;
   color: #4c4b63;
-  font-family: "Glacial Indifference", Times, sans-serif;
+  font-family: "MetropolisRegular", Arial, sans-serif;
   font-size: 2rem;
 }
 
 p {
   text-align: center;
   color: #4c4b63;
-  font-family: WremenaRegular, Arial, serif;
+  font-family: "WremenaRegular", Times, serif;
   font-size: 1.3rem;
 }
 
