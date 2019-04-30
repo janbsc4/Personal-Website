@@ -30,12 +30,40 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  text-align: center;
+  color: #4c4b63;
+  font-family: "MetropolisRegular", Arial, sans-serif;
+  font-size: 1.8rem;
+}
+
+h4 {
+  text-align: center;
+  color: #4c4b63;
+  font-family: "MetropolisRegular", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
 p {
   text-align: center;
   color: #4c4b63;
   font-family: "WremenaRegular", Times, serif;
   font-size: 1.3rem;
 }
+
+ol {
+text-align: center;
+display:inline-block;
+  color: #4c4b63;
+  font-family: "WremenaRegular", Times, serif;
+  font-size: 1.3rem;}
+  
+  ul {
+  text-align: center;
+  display:inline-block;
+  color: #4c4b63;
+  font-family: "WremenaRegular", Times, serif;
+  font-size: 1.3rem;}
 
 body {
 	background-color: #fcbfb7;
