@@ -1,71 +1,98 @@
-@font-face {
-  font-family: "MetropolisRegular";
+<!DOCTYPE html>
+@charset "utf-8";
+<html>
+
+html, body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+html, body {
+color: #4c4b63;
+background: #fcbfb7;
+}
+/* fonts*/
+@font-face {font-family: "MetropolisRegular";
   src: url("fonts/metropolis/metropolisregular.woff2") format("woff2");
 }
   
- @font-face { font-family: "Metropolis";
+@font-face {font-family: "MetropolisBlack";
   src: url("fonts/metropolis/metropolisblack.woff") format("woff");
 }
   
- @font-face { font-family: "WremenaRegular";
+@font-face {font-family: "WremenaRegular";
   src: url("fonts/wremena/wremenaregular.woff") format("woff");
 }
   
- @font-face { font-family: "Glacial Indifference";
+@font-face {font-family: "Glacial Indifference";
   src: url("fonts/glacialindifference/glacialindifferencebold.otf") format("otf");
 }
 
-
+/*formatting*/
 h1 {
-  text-align: center;
-  color: #4c4b63;
-  font-family: "Metropolis", Arial, sans-serif;
+  font-family: "MetropolisBlack", Arial, sans-serif;
   font-size: 3rem;
+  text-align: center;
 }
 
 h2 {
-  text-align: center;
-  color: #4c4b63;
   font-family: "MetropolisRegular", Arial, sans-serif;
   font-size: 2rem;
+  text-align: center;
 }
 
 h3 {
-  text-align: center;
-  color: #4c4b63;
   font-family: "MetropolisRegular", Arial, sans-serif;
   font-size: 1.8rem;
+  text-align: center;
 }
 
 h4 {
-  text-align: center;
-  color: #4c4b63;
   font-family: "MetropolisRegular", Arial, sans-serif;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 p {
-  text-align: center;
-  color: #4c4b63;
   font-family: "WremenaRegular", Times, serif;
   font-size: 1.3rem;
+  text-align: center;
 }
 
 ol {
-text-align: center;
 display:inline-block;
-  color: #4c4b63;
   font-family: "WremenaRegular", Times, serif;
   font-size: 1.3rem;}
-  
-  ul {
   text-align: center;
-  display:inline-block;
-  color: #4c4b63;
-  font-family: "WremenaRegular", Times, serif;
-  font-size: 1.3rem;}
 
-body {
-	background-color: #fcbfb7;
+ul {
+  display:inline-block;
+  font-family: "WremenaRegular", Times, serif;
+  font-size: 1.3rem;
+  text-align: center;
+  }
+
+
+/* link formatting*/
+a {
+	color:#c585b3;
+	text-decoration: none;
+}
+	
+a:visited {
+	color: #6d6875;
+	text-decoration: none;
 	}
 	
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+</html>
+
