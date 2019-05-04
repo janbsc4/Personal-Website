@@ -11,6 +11,8 @@ html, body {
 color: #4c4b63;
 background: #fcbfb7;
 font-size: 18px;
+text-align: center;
+font-family: "GI", Times, serif;
 }
 
 /* link formatting*/
@@ -49,29 +51,32 @@ a:active {
 }
 
 
-div {
+article {
   padding-top: 0%;
   padding-right: 20%;
   padding-bottom: 0%;
   padding-left: 20%;
 }
 
+.space { margin-top: 30px; }
+.bspace { margin-top: 60px; }
+
 /*formatting*/
 h1 {
   font-family: "GIBold", Times, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 h2 {
   font-family: "GIBold", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-align: center;
 }
 
 h3 {
   font-family: "GIBold", Arial, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 
@@ -88,16 +93,11 @@ p {
 }
 
 ol {
-display:inline-block;
-  font-family: "GI", Times, serif;
-  font-size: 1.3rem;}
-  text-align: center;
+list-style-position: inside;
+}
 
 ul {
-  display:inline-block;
-  font-family: "GI", Times, serif;
-  font-size: 1.3rem;
-  text-align: center;
+list-style-position: inside;
   }
 
 
