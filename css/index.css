@@ -10,7 +10,30 @@ border: 0px;
 html, body {
 color: #4c4b63;
 background: #fcbfb7;
+font-size: 18px;
 }
+
+/* link formatting*/
+a {
+	color:#c585b3;
+	text-decoration: none;
+}
+	
+a:visited {
+	color: #6d6875;
+	text-decoration: none;
+	}
+	
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+
 /* fonts*/
   
 @font-face {font-family: "GI";
@@ -36,9 +59,8 @@ div {
 /*formatting*/
 h1 {
   font-family: "GIBold", Times, sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
-
 }
 
 h2 {
@@ -79,23 +101,4 @@ ul {
   }
 
 
-/* link formatting*/
-a {
-	color:#c585b3;
-	text-decoration: none;
-}
-	
-a:visited {
-	color: #6d6875;
-	text-decoration: none;
-	}
-	
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-  color: hotpink;
-}
 
