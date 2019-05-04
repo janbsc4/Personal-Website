@@ -1,6 +1,5 @@
-<!DOCTYPE html>
+
 @charset "utf-8";
-<html>
 
 html, body {
 margin: 0px;
@@ -13,62 +12,68 @@ color: #4c4b63;
 background: #fcbfb7;
 }
 /* fonts*/
-@font-face {font-family: "MetropolisRegular";
-  src: url("fonts/metropolis/metropolisregular.woff2") format("woff2");
-}
   
-@font-face {font-family: "MetropolisBlack";
-  src: url("fonts/metropolis/metropolisblack.woff") format("woff");
+@font-face {font-family: "GI";
+  src: url("fonts/glacialindifference/glacialindifferenceregular.otf") format("opentype");
 }
-  
-@font-face {font-family: "WremenaRegular";
-  src: url("fonts/wremena/wremenaregular.woff") format("woff");
+
+@font-face {font-family: "GIBold";
+  src: url("fonts/glacialindifference/glacialindifferencebold.otf") format("opentype");
 }
-  
-@font-face {font-family: "Glacial Indifference";
-  src: url("fonts/glacialindifference/glacialindifferencebold.otf") format("otf");
+
+@font-face {font-family: "GIItalic";
+  src: url("fonts/glacialindifference/glacialIndifferenceitalic.otf") format("opentype");
+}
+
+
+div {
+  padding-top: 0%;
+  padding-right: 20%;
+  padding-bottom: 0%;
+  padding-left: 20%;
 }
 
 /*formatting*/
 h1 {
-  font-family: "MetropolisBlack", Arial, sans-serif;
+  font-family: "GIBold", Times, sans-serif;
   font-size: 3rem;
   text-align: center;
+
 }
 
 h2 {
-  font-family: "MetropolisRegular", Arial, sans-serif;
+  font-family: "GIBold", Arial, sans-serif;
   font-size: 2rem;
   text-align: center;
 }
 
 h3 {
-  font-family: "MetropolisRegular", Arial, sans-serif;
+  font-family: "GIBold", Arial, sans-serif;
   font-size: 1.8rem;
   text-align: center;
 }
 
 h4 {
-  font-family: "MetropolisRegular", Arial, sans-serif;
+  font-family: "GIBold", Arial, sans-serif;
   font-size: 1.5rem;
   text-align: center;
 }
 
 p {
-  font-family: "WremenaRegular", Times, serif;
+  font-family: "GI", Times, serif;
   font-size: 1.3rem;
   text-align: center;
 }
 
 ol {
 display:inline-block;
-  font-family: "WremenaRegular", Times, serif;
+  font-family: "GI", Times, serif;
   font-size: 1.3rem;}
   text-align: center;
 
 ul {
   display:inline-block;
-  font-family: "WremenaRegular", Times, serif;
+  font-family: "GI", Times, serif;
   font-size: 1.3rem;
   text-align: center;
   }
@@ -93,6 +98,4 @@ a:active {
   text-decoration: underline;
   color: hotpink;
 }
-
-</html>
 
