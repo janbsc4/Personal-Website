@@ -20,12 +20,12 @@ a {
 	color:#c585b3;
 	text-decoration: none;
 }
-	
+
 a:visited {
 	color: #6d6875;
 	text-decoration: none;
 	}
-	
+
 a:hover {
   text-decoration: underline;
 }
@@ -37,7 +37,7 @@ a:active {
 
 
 /* fonts*/
-  
+
 @font-face {font-family: "GI";
   src: url("fonts/glacialindifference/glacialindifferenceregular.otf") format("opentype");
 }
@@ -121,3 +121,13 @@ list-style-position: inside;
   cursor: pointer;
 }
 
+input {
+  width: 20%;
+  padding: 10px 10px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  /* border: none; */
+  background-color: #FFFFFF;
+  color: black;
+	outline: none;
+}
