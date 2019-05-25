@@ -92,6 +92,9 @@ p {
   text-align: center;
 }
 
+object {
+	color: #4c4b63
+}
 ol {
 list-style-position: inside;
 }
