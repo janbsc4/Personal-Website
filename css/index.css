@@ -1,18 +1,16 @@
 
 @charset "utf-8";
 
-html, body {
-margin: 0px;
-padding: 0px;
-border: 0px;
-}
-
-html, body {
+/* main elements */
+body {
 color: #4c4b63;
 background: #fcbfb7;
 font-size: 18px;
 text-align: center;
 font-family: "GI", Times, serif;
+margin: 	0px;
+padding:	0px;
+border:		0px;
 }
 
 /* link formatting*/
@@ -35,9 +33,7 @@ a:active {
   color: #c4bbb8;
 }
 
-
 /* fonts*/
-
 @font-face {font-family: "GI";
   src: url("fonts/glacialindifference/glacialindifferenceregular.otf") format("opentype");
 }
@@ -50,6 +46,42 @@ a:active {
   src: url("fonts/glacialindifference/glacialIndifferenceitalic.otf") format("opentype");
 }
 
+/*spaces*/
+.space { margin-top: 30px; }
+.bspace { margin-top: 60px; }
+
+/*formatting*/
+body h1, body h2, body h3, body h4 {
+	font-family: "GIBold", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.9rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+ul {
+	list-style-position: inside;
+}
 
 article {
   padding-top: 0%;
@@ -58,72 +90,36 @@ article {
   padding-left: 20%;
 }
 
-.space { margin-top: 30px; }
-.bspace { margin-top: 60px; }
-
-/*formatting*/
-h1 {
-  font-family: "GIBold", Times, sans-serif;
-  font-size: 3rem;
-  text-align: center;
+img {
+	max-width: 280px;
+	max-height: 200px;
 }
 
-h2 {
-  font-family: "GIBold", Arial, sans-serif;
-  font-size: 2.3rem;
-  text-align: center;
+footer {
+ position: static;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: #FCD0CA;
 }
 
-h3 {
-  font-family: "GIBold", Arial, sans-serif;
-  font-size: 1.6rem;
-  text-align: center;
+header {
+ position: static;
+ left: 50%;
+ top: 0;
+ margin: 50px;
 }
 
-h4 {
-  font-family: "GIBold", Arial, sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-p {
-  font-family: "GI", Times, serif;
-  font-size: 1.3rem;
-  text-align: center;
-}
-
-object {
-	color: #4c4b63
-}
-ol {
-list-style-position: inside;
-}
-
-ul {
-list-style-position: inside;
-  }
-
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
-	 background-color: #FCD0CA;
-
-}
-
-.button {
-  background-color: #4c4b63;
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 20px 12px;
-  cursor: pointer;
+button {
+	background-color: #4c4b63;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 20px 12px;
+	cursor: pointer;
 }
 
 input {
