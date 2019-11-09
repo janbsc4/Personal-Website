@@ -1,7 +1,7 @@
 /* main elements */
 body {
-color: #4c4b63;
-background: #FEF9F8;
+color: #222427;
+background: #F5F6F3;
 font-size: 18px;
 text-align: center;
 font-family: GI, sans-serif;
@@ -13,12 +13,12 @@ border:		0px;
 
 /* link formatting*/
 a {
-	color:#c585b3;
+	color:#EA533E;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #6d6875;
+	color: #ADA2A0;
 	text-decoration: none;
 	}
 
@@ -28,7 +28,7 @@ a:hover {
 
 a:active {
   text-decoration: underline;
-  color: #c4bbb8;
+  color: #AE8E64;
 }
 
 /* fonts*/
